@@ -22,7 +22,7 @@ public:
 	
 	int Vec();
 	void setFilCol(int x, int y);
-	int getFilasColumnas();
+	void setVec();
 	int getVec();
 	~Vectores();
 };

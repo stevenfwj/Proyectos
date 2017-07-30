@@ -26,7 +26,7 @@ void Vectores::setFilCol(int x, int y)
 
 }
 
-int Vectores::getFilasColumnas()
+void Vectores::setVec()
 {
 	a;
 	b;
@@ -50,18 +50,14 @@ int Vectores::getFilasColumnas()
 		{
 			cout << "Valores: " << flush;
 			cin >> c[a][b];
-			cout << "Valor: " << c[a][b] << endl;
+			cout << endl;
 		}
 
 	};
-
-	return a, b, c[a][b];
 }
 
 int Vectores::getVec()
 {
-
-	
-
+	cout << "Vector es: " << endl;
 	return c[a][b];
 }

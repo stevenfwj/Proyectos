@@ -16,5 +16,5 @@ int main()
 	cin >> j;
 	Vectores vec;
 	vec.setFilCol(i,j);
-	cout << vec.getFilasColumnas() << endl;
+	cout << vec.getVec() << endl;
 }
