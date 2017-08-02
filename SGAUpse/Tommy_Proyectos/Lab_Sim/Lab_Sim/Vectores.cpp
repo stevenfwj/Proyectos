@@ -44,20 +44,31 @@ void Vectores::setVec()
 	cout << endl;
 
 
-	for (cont = 0; cont < a; cont++)
-	{
-		for (cont = 0; cont < b; cont++)
-		{
-			cout << "Valores: " << flush;
-			cin >> c[a][b];
-			cout << endl;
-		}
 
-	};
 }
+
+int Vectores::setVec(array<int, 1>x)
+{
+	c[a][b];
+	
+	int i;
+	int j;
+
+	for (i = 0; i < a; i++)
+	{
+		for (j = 0; j < b; j++)
+		{
+			cin >> c[a][b];
+			cout << c[a][b];
+
+		}
+	}
+	return c[a][b];
+}
+
 
 int Vectores::getVec()
 {
 	cout << "Vector es: " << endl;
-	return c[a][b];
+	return  c[a][b];
 }
