@@ -4,6 +4,10 @@ using namespace std;
 
 Vectores::Vectores()
 {
+	tam = 1;
+	Vectorsito[tam] = 1;
+	cout << Vectorsito[0] << endl;
+	
 }
 
 
@@ -71,6 +75,7 @@ int Vectores::getVec()
 
 	cout << "Vector es: " << endl;
 	cout << c[a][b] << endl;
+	
 
 	return  0;
 }
