@@ -47,10 +47,10 @@ void Vectores::setVec()
 
 }
 
-int Vectores::setVec(array<int, 1>x)
+int Vectores::setVec1()
 {
 	c[a][b];
-	
+
 	int i;
 	int j;
 
@@ -59,16 +59,18 @@ int Vectores::setVec(array<int, 1>x)
 		for (j = 0; j < b; j++)
 		{
 			cin >> c[a][b];
-			cout << c[a][b];
 
 		}
+
 	}
 	return c[a][b];
 }
 
-
 int Vectores::getVec()
 {
+
 	cout << "Vector es: " << endl;
-	return  c[a][b];
+	cout << c[a][b] << endl;
+
+	return  0;
 }

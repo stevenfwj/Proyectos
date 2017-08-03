@@ -26,5 +26,6 @@ int main()
 	Vectores vec;
 	vec.setFilCol(i,j);
 	vec.setVec();
+	vec.setVec1();
 	cout << vec.getVec() << endl;
 }

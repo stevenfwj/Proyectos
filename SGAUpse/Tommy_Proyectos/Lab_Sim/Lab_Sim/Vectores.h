@@ -23,7 +23,7 @@ public:
 	int Vec();
 	void setFilCol(int x, int y);
 	void setVec();
-	int setVec(array<int, 1>);
+	int setVec1();
 	int getVec();
 	~Vectores();
 };
