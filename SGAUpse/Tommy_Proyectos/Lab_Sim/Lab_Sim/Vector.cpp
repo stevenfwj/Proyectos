@@ -12,14 +12,11 @@ int main()
 {
 	int i;
 	int j;
-	/*int Vectorsito[1];
-	int tam = 1;
-	Vectorsito[100] = 500;
-	cout << Vectorsito[99] << endl;*/
+	
 
 
-	cout << "i: Columnas" << endl; /**/
-	cout << "j: filas" << endl;
+	cout << "i: Filas" << endl; 
+	cout << "j: Columnas" << endl;
 
 	cout << "Ingrese el Valor de i: " << flush;
 	cin >> i;
@@ -29,10 +26,13 @@ int main()
 	cin >> j;
 	cout << "j = " << j << endl;
 	Vectores vec;
-	vec.setFilCol(i,j);
+	//vec.Vec(1, 2, { 1.2 });
 
-	vec.setVec(5,5,2,87);
+	vec.setFilCol(i,j);
 	
 	vec.setVec1();
+	
+	
+	
 	cout << vec.getVec() << endl;
 }

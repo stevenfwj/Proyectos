@@ -4,9 +4,6 @@ using namespace std;
 
 Vectores::Vectores()
 {
-	tam = 1;
-	Vectorsito[tam] = 1;
-	cout << Vectorsito[0] << endl;
 	
 }
 
@@ -16,10 +13,15 @@ Vectores::~Vectores()
 }
 
 
-int Vectores::Vec()
+/*int Vectores::Vec(int x, int y, float z)
 {
-	return 0;
-}
+	
+	c[x][y] = {z};
+	
+	
+	return c[x][y];
+
+}*/
 
 
 void Vectores::setFilCol(int x, int y)
@@ -30,26 +32,6 @@ void Vectores::setFilCol(int x, int y)
 
 }
 
-void Vectores::setVec()
-{
-	a;
-	b;
-
-	int cont = 0;
-	/*	int i;
-	int j;*/
-	cout << "m: Filas" << endl;
-	cout << "m = " << a << endl;
-	cout << endl;
-
-
-	cout << "n: Columnas" << endl;
-	cout << "n = " << b << endl;
-	cout << endl;
-
-
-
-}
 
 int Vectores::setVec1()
 {
@@ -62,16 +44,26 @@ int Vectores::setVec1()
 	{
 		for (j = 0; j < b; j++)
 		{
-			cin >> c[a][b];
+			cin >> c[i][j];
 
 		}
 
 	}
-	return c[a][b];
+	cout << endl;
+	return 0;
 }
 
 int Vectores::getVec()
 {
+	
+
+	cout << "Ingrese la fila que desea buscar: " << flush;
+	cin >> a;
+	cout << endl;
+	cout << "Ingrese la columna que desea buscar: " << flush;
+	cin >> b;
+	cout << endl;
+	cout << endl;
 
 	cout << "Vector es: " << endl;
 	cout << c[a][b] << endl;
@@ -79,3 +71,4 @@ int Vectores::getVec()
 
 	return  0;
 }
+

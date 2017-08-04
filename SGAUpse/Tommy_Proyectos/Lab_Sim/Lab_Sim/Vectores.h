@@ -12,22 +12,22 @@ class Vectores
 {
 private:
 
-	int a;
-	int b;
-	int c[1][1];
-	array<int, 1>x;
+	
+	
 
 
 public:
 	Vectores();
-	
-	int Vec();
+	int a;
+	int b;
+	int c[1][1];
+	//int Vec(int x, int y, float z);
 	void setFilCol(int x, int y);
 	void setVec();
 	int setVec1();
 	int getVec();
-	int tam = 0;
-	int Vectorsito[1];
+	float multVect();
+	
 	~Vectores();
 };
 
