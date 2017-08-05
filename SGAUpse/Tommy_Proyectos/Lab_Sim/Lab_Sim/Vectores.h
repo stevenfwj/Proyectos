@@ -11,16 +11,16 @@ using namespace std;
 class Vectores
 {
 private:
-
-	
+	int a;
+	int b;
+	int c[1][1];
+	float d[1][1] = {};
 	
 
 
 public:
 	Vectores();
-	int a;
-	int b;
-	int c[1][1];
+	
 	//int Vec(int x, int y, float z);
 	void setFilCol(int x, int y);
 	void setVec();
@@ -28,6 +28,9 @@ public:
 	int getVec();
 	float multVect();
 	
+	
+
+
 	~Vectores();
 };
 

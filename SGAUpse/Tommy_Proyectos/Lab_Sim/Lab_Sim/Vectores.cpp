@@ -4,7 +4,7 @@ using namespace std;
 
 Vectores::Vectores()
 {
-	
+
 }
 
 
@@ -15,11 +15,11 @@ Vectores::~Vectores()
 
 /*int Vectores::Vec(int x, int y, float z)
 {
-	
-	c[x][y] = {z};
-	
-	
-	return c[x][y];
+
+c[x][y] = {z};
+
+
+return c[x][y];
 
 }*/
 
@@ -29,7 +29,7 @@ void Vectores::setFilCol(int x, int y)
 	a = x;
 	b = y;
 
-
+	
 }
 
 
@@ -37,25 +37,33 @@ int Vectores::setVec1()
 {
 	c[a][b];
 
+	
 	int i;
 	int j;
 
-	for (i = 0; i < a; i++)
+
+	if ((a > 0) && (b > 0))
 	{
-		for (j = 0; j < b; j++)
+
+		for (i = 0; i < a; i++)
 		{
-			cin >> c[i][j];
+			for (j = 0; j < b; j++)
+			{
+				cout << "Ingrese el Valor: " << flush;
+				cin >> c[i][j];
+				
+				cout << "Valor: " << c[i][j] << endl;
+			}
 
 		}
-
 	}
 	cout << endl;
-	return 0;
+	return 000;
 }
 
 int Vectores::getVec()
 {
-	
+
 
 	cout << "Ingrese la fila que desea buscar: " << flush;
 	cin >> a;
@@ -67,8 +75,7 @@ int Vectores::getVec()
 
 	cout << "Vector es: " << endl;
 	cout << c[a][b] << endl;
-	
+
 
 	return  0;
 }
-
