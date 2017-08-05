@@ -13,23 +13,12 @@ Vectores::~Vectores()
 }
 
 
-/*int Vectores::Vec(int x, int y, float z)
-{
-
-c[x][y] = {z};
-
-
-return c[x][y];
-
-}*/
-
-
 void Vectores::setFilCol(int x, int y)
 {
 	a = x;
 	b = y;
 
-	
+
 }
 
 
@@ -37,7 +26,7 @@ int Vectores::setVec1()
 {
 	c[a][b];
 
-	
+
 	int i;
 	int j;
 
@@ -51,7 +40,7 @@ int Vectores::setVec1()
 			{
 				cout << "Ingrese el Valor: " << flush;
 				cin >> c[i][j];
-				
+
 				cout << "Valor: " << c[i][j] << endl;
 			}
 
@@ -60,6 +49,7 @@ int Vectores::setVec1()
 	cout << endl;
 	return 000;
 }
+
 
 int Vectores::getVec()
 {
@@ -76,6 +66,33 @@ int Vectores::getVec()
 	cout << "Vector es: " << endl;
 	cout << c[a][b] << endl;
 
-
 	return  0;
+}
+
+
+int Vectores::setVec2Length(int x, int y) //establece la longitud del vector
+{
+	a = x;
+	b = y;
+
+	d[x][y];
+
+	return x, y;
+}
+
+void Vectores::setVec2(int x, int y, int z) //establece el vector
+{
+	a = x;
+	b = y;
+	g = z;
+	d[a][b]=g;
+}
+
+
+float Vectores::getVec2(int x, int y) //aquí se busca un valor pre-asignado
+{
+	a = x;
+	b = y;
+
+	return d[a][b];
 }

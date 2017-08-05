@@ -15,8 +15,9 @@ private:
 	int b;
 	int c[1][1];
 	float d[1][1] = {};
-	
-
+	int e;
+	int f;
+	float g;
 
 public:
 	Vectores();
@@ -26,10 +27,11 @@ public:
 	void setVec();
 	int setVec1();
 	int getVec();
-	float multVect();
 	
+	int setVec2Length(int x, int y); //establece la longitud del vector
+	void setVec2(int x, int y, int z); //establece el vector
+	float getVec2(int x, int y); //aquí se busca un valor pre-asignado
 	
-
 
 	~Vectores();
 };
